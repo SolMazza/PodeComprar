@@ -1,0 +1,60 @@
+body{
+    background-color: #444444;
+    --cor-fundo: #DBC1AC;
+    --cor-button: #b7d5ac ;
+
+}
+.alls{
+
+  display: contents;
+  flex-direction: column;
+  
+
+}
+h1{
+    font-family: 'KlavikaMediumPlain';
+    color:var(--cor-fundo);
+    font-size: 40px;
+    margin: 0px;
+    display: flex;
+        
+    align-items: center;
+    justify-content: center;
+}
+
+.pais {
+    color: var(--cor-fundo) ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.ano{
+    color: var(--cor-fundo) ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.consulta{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.consulta button {
+    
+    background-color: var(--cor-button) ;
+    color: black;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .consulta button:disabled {
+    background-color: var(--cor-fundo);
+    color: black;
+    cursor: not-allowed;
+  }
+
