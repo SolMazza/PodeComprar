@@ -1,0 +1,110 @@
+body{
+  background-color: #5a2413;
+  --cor-fundo: #ecbd95;
+  --cor-button: #8cb87d ;
+
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swalTitle {
+  font-size: 35px;
+  color: #d5b094;
+  padding-top: 0px;
+}
+
+
+.swalButton {
+  font-size: 20px !important;
+  background-color: #b3d9b3 !important;
+  border: 2px solid black !important;
+  color: black !important;
+  border-radius: 10px !important;
+  padding: 10px 80px !important;
+}
+
+.alls{
+
+  border: 3px solid var(--cor-button); 
+  padding: 30px; 
+  border-radius: 10px; 
+
+}
+h1{
+  font-family: 'KlavikaMediumPlain';
+  color:var(--cor-fundo);
+  font-size: 40px;
+  margin: 0px;
+  display: flex;
+      
+  align-items: center;
+  justify-content: center;
+}
+select{
+  border: 2px solid black;
+  border-radius: 8px;
+}
+.pais, .ano {
+  margin-bottom: 20px;
+}
+
+.pais label, .ano label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.pais select, .ano select {
+  padding: 5px;
+  width: 150px;
+  font-size: 16px;
+}
+
+.pais label, .ano label {
+  margin-bottom: -18px;  
+}
+
+.ano label{
+  margin-left: -20px;
+  font-size: 15px;
+}
+
+.pais label{
+  margin-left: -110px;
+  font-size: 15px;
+}
+
+.pais, .ano {
+  color: white ;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  
+}
+
+.consulta{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.consulta button {
+  
+  background-color: var(--cor-button) ;
+  color: black;
+  padding: 10px 20px;
+  border: 2px solid black;
+  border-radius: 5px;
+  cursor: pointer;
+
+}
+
+.consulta button:disabled {
+  background-color: var(--cor-fundo);
+  color: black;
+  cursor: not-allowed;
+}
+
