@@ -1,1 +1,4 @@
 Pode Comprar
+
+introdução
+ Você deve 1) adaptar a UI para que seja feita uma consulta a API para identificar se o usuário pode ou não pode comprar bebida alcoólica conforme o ano de nascimento e o país de origem. Além disso, você 2) deve adicionar um indicativo de carregamento da API no botão. Considere o Wire-frame abaixo como referência. Por fim, 3) você de apresentar uma mensagem (pode ser um alert) indicando para o usuário se ele pode ou não pode comprar bebida alcoólica conforme os parâmetros que foram especificados nos inputs.
