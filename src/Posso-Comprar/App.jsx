@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import axios from 'axios';
-import ClipLoader from "react-spinners/ClipLoader";
-import Swal from 'sweetalert2';
+import ClipLoader from "react-spinners/ClipLoader"; // npm install --save react-spinners
+import Swal from 'sweetalert2'; //npm install sweetalert2
 
 
 function alertMens(mens, icons) {
