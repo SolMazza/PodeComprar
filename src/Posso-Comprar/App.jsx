@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import axios from 'axios';
 import ClipLoader from "react-spinners/ClipLoader"; // npm install --save react-spinners
 import Swal from 'sweetalert2'; //npm install sweetalert2
-
+// link Swal: https://sweetalert2.github.io/#download
 
 function alertMens(mens, icons) {
   const Toast = Swal.mixin({
